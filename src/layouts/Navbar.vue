@@ -21,16 +21,16 @@
       <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar-nav ms-auto mb-2 mb-md-0">
           <RouterLink to="/" class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active">Home</a>
           </RouterLink>
           <RouterLink  to="/from" >
             <a class="nav-link">Form</a>
           </RouterLink>
+          <RouterLink to="/fromo" class="nav-item">
+            <a class="nav-link">FromObject</a>
+          </RouterLink>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <RouterLink to="/formtoken" class="nav-link" href="#">TokenFrom</RouterLink>
           </li>
         </ul>
       </div>

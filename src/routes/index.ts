@@ -1,5 +1,7 @@
 
 import Form from '@/pages/Form.vue';
+import FormObject from '@/pages/FormObject.vue';
+import FormToken from '@/pages/FormToken.vue';
 
 
 import Home from '@/pages/Home.vue';
@@ -15,6 +17,8 @@ const myRouter = createRouter({
         { path: '/', component: Home },
         { path: '/pinia', component: Pinia },
         { path: '/from', component: Form },
+        { path: '/fromo', component: FormObject },
+        { path: '/formtoken', component: FormToken },
       
     ]
 });
